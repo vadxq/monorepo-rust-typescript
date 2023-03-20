@@ -1,0 +1,33 @@
+{
+	"name": "feapp",
+	"scripts": {
+		"dev": "solid-start dev",
+		"build": "solid-start build",
+		"start": "solid-start start",
+		"lint": "eslint \"**/*.{js,jsx,ts,tsx}\""
+	},
+	"type": "module",
+	"main": "./dist/index.js",
+	"devDependencies": {
+		"@types/babel__core": "^7.20.0",
+		"@types/debug": "^4.1.7",
+		"@types/node": "^18.11.18",
+		"esbuild": "^0.14.54",
+		"eslint": "^8.35.0",
+		"eslint-config-custom": "workspace:*",
+		"solid-start-node": "^0.2.19",
+		"tsconfig": "workspace:*",
+		"typescript": "^4.9.4",
+		"vite": "^4.1.4"
+	},
+	"dependencies": {
+		"@solidjs/meta": "^0.28.2",
+		"@solidjs/router": "^0.7.0",
+		"solid-js": "^1.6.11",
+		"solid-start": "^0.2.23",
+		"undici": "^5.15.1"
+	},
+	"engines": {
+		"node": ">=16"
+	}
+}

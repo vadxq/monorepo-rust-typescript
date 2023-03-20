@@ -1,0 +1,37 @@
+{
+	"search.exclude": {
+		"**/.yarn": true,
+		"**/.pnp.*": true
+	},
+	"editor.formatOnSave": true,
+	"editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+	"files.associations": {
+    "editor.snippetSuggestions": "top"
+  },
+	"files.autoSave": "afterDelay",
+	"[javascript]": {
+		"editor.defaultFormatter": "dprint.dprint"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "dprint.dprint"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "dprint.dprint"
+	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "dprint.dprint"
+	},
+	"[markdown]": {
+		"editor.defaultFormatter": "dprint.dprint"
+	},
+	"[toml]": {
+		"editor.defaultFormatter": "dprint.dprint"
+	},
+	"[rust]": {
+		"editor.defaultFormatter": "matklad.rust-analyzer"
+	}
+}
