@@ -3,24 +3,23 @@
 	"version": "0.0.0",
 	"private": true,
 	"author": "vadxq",
-  "license": "MIT",
+	"license": "MIT",
 	"workspaces": [
 		"apps/*",
 		"packages/*"
 	],
 	"devDependencies": {
-		"@commitlint/cli": "^17.4.4",
-		"@commitlint/config-conventional": "^17.4.4",
-		"@types/eslint": "^8.4.10",
-		"@types/node": "^18.15.0",
-		"@types/prettier": "^2.7.2",
-		"dprint": "^0.35.0",
-		"eslint": "^8.30.0",
+		"@commitlint/cli": "^18.4.3",
+		"@commitlint/config-conventional": "^18.4.3",
+		"@types/eslint": "^8.44.9",
+		"@types/node": "^20.10.5",
+		"dprint": "^0.44.0",
+		"eslint": "^8.56.0",
 		"eslint-config-custom": "workspace:*",
 		"husky": "^8.0.3",
-		"prettier": "^2.8.4",
-		"turbo": "^1.8.3",
-		"typescript": "^4.9.4"
+		"prettier": "^3.1.1",
+		"turbo": "^1.11.2",
+		"typescript": "^5.3.3"
 	},
 	"scripts": {
 		"feapp": "pnpm --filter=./apps/feapp",
@@ -33,19 +32,19 @@
 		"prepare": "husky install"
 	},
 	"repository": {
-    "type": "git",
-    "url": "git+https://github.com/vadxq/monorepo-rust-typescript.git"
-  },
-  "keywords": [
-    "monorepo",
+		"type": "git",
+		"url": "git+https://github.com/vadxq/monorepo-rust-typescript.git"
+	},
+	"keywords": [
+		"monorepo",
 		"rust",
 		"typescript",
 		"solid"
-  ],
+	],
 	"bugs": {
-    "url": "https://github.com/vadxq/monorepo-rust-typescript/issues"
-  },
-  "homepage": "https://github.com/vadxq/monorepo-rust-typescript#readme",
+		"url": "https://github.com/vadxq/monorepo-rust-typescript/issues"
+	},
+	"homepage": "https://github.com/vadxq/monorepo-rust-typescript#readme",
 	"commitlint": {
 		"extends": [
 			"@commitlint/config-conventional"
@@ -54,5 +53,5 @@
 	"engines": {
 		"node": ">=16.0.0"
 	},
-	"packageManager": "pnpm@7.19.0"
+	"packageManager": "pnpm@8.12.1"
 }
