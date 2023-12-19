@@ -5,13 +5,13 @@
 	},
 	"editor.formatOnSave": true,
 	"editor.quickSuggestions": {
-    "other": true,
-    "comments": true,
-    "strings": true
-  },
+		"other": true,
+		"comments": true,
+		"strings": true
+	},
 	"files.associations": {
-    "editor.snippetSuggestions": "top"
-  },
+		"editor.snippetSuggestions": "top"
+	},
 	"files.autoSave": "afterDelay",
 	"[javascript]": {
 		"editor.defaultFormatter": "dprint.dprint"

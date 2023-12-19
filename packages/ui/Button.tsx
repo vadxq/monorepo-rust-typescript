@@ -1,6 +1,6 @@
 import { Component, JSX, splitProps } from 'solid-js'
 
-interface Props extends JSX.HTMLAttributes<HTMLButtonElement> { }
+interface Props extends JSX.HTMLAttributes<HTMLButtonElement> {}
 
 export const Button: Component<Props> = (props) => {
 	const [local, other] = splitProps(props, ['children'])
