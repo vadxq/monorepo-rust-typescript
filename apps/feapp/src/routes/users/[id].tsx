@@ -19,7 +19,7 @@ export const routeData = (props: RouteDataArgs) => {
 }
 
 const User: Component = () => {
-	const user = useRouteData<typeof routeData>()
+	const user: any = useRouteData<typeof routeData>()
 	return (
 		<div class='user-view'>
 			<Show when={user()}>

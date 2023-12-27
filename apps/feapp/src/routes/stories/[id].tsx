@@ -13,7 +13,7 @@ export const routeData = (props: RouteDataArgs) => {
 }
 
 const Story: Component = () => {
-	const story = useRouteData<typeof routeData>()
+	const story: any = useRouteData<typeof routeData>()
 	return (
 		<Show when={story()}>
 			<div class='item-view'>
