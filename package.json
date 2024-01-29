@@ -1,59 +1,59 @@
 {
-	"name": "monorepo-rust-typescript",
-	"version": "0.0.0",
-	"private": true,
-	"author": "vadxq",
-	"license": "MIT",
-	"workspaces": [
-		"apps/*",
-		"packages/*"
-	],
-	"devDependencies": {
-		"@changesets/cli": "^2.27.1",
-		"@commitlint/cli": "^18.4.3",
-		"@commitlint/config-conventional": "^18.4.3",
-		"@types/node": "^20.10.5",
-		"dprint": "^0.44.0",
-		"eslint": "^8.56.0",
-		"eslint-config-custom": "workspace:*",
-		"husky": "^8.0.3",
-		"prettier": "^3.1.1",
-		"turbo": "^1.11.2",
-		"typescript": "^5.3.3"
-	},
-	"scripts": {
-		"feapp": "pnpm --filter=./apps/feapp",
-		"feapp:dev": "turbo run dev --scope=@monorepo/feapp",
-		"beapp:dev": "cargo watch -x run -p beapp -w ./apps/beapp",
-		"build": "turbo run build --parallel",
-		"dev": "turbo run dev --parallel --no-cache",
-		"format": "pnpm dprint fmt",
-		"lint": "turbo run lint --parallel",
-		"prepare": "husky install",
-		"changeset": "changeset",
-		"changeset:version": "changeset version"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/vadxq/monorepo-rust-typescript.git"
-	},
-	"keywords": [
-		"monorepo",
-		"rust",
-		"typescript",
-		"solid"
-	],
-	"bugs": {
-		"url": "https://github.com/vadxq/monorepo-rust-typescript/issues"
-	},
-	"homepage": "https://github.com/vadxq/monorepo-rust-typescript#readme",
-	"commitlint": {
-		"extends": [
-			"@commitlint/config-conventional"
-		]
-	},
-	"engines": {
-		"node": ">=20.0.0"
-	},
-	"packageManager": "pnpm@8.14.1"
+  "name": "monorepo-rust-typescript",
+  "version": "0.0.0",
+  "private": true,
+  "author": "vadxq",
+  "license": "MIT",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@changesets/cli": "^2.27.1",
+    "@commitlint/cli": "^18.4.3",
+    "@commitlint/config-conventional": "^18.4.3",
+    "@types/node": "^20.10.5",
+    "dprint": "^0.44.0",
+    "eslint": "^8.56.0",
+    "eslint-config-custom": "workspace:*",
+    "husky": "^8.0.3",
+    "prettier": "^3.1.1",
+    "turbo": "^1.11.2",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "feapp": "pnpm --filter=./apps/feapp",
+    "feapp:dev": "turbo run dev --scope=@monorepo/feapp",
+    "beapp:dev": "cargo watch -x run -p beapp -w ./apps/beapp",
+    "build": "turbo run build --parallel",
+    "dev": "turbo run dev --parallel --no-cache",
+    "format": "pnpm dprint fmt",
+    "lint": "turbo run lint --parallel",
+    "prepare": "husky install",
+    "changeset": "changeset",
+    "changeset:version": "changeset version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vadxq/monorepo-rust-typescript.git"
+  },
+  "keywords": [
+    "monorepo",
+    "rust",
+    "typescript",
+    "solid"
+  ],
+  "bugs": {
+    "url": "https://github.com/vadxq/monorepo-rust-typescript/issues"
+  },
+  "homepage": "https://github.com/vadxq/monorepo-rust-typescript#readme",
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "packageManager": "pnpm@8.14.1"
 }

@@ -7,3 +7,4 @@ export PATH=$(cygpath $FNM_MULTISHELL_PATH):$PATH
 
 pnpm format
 pnpm lint
+git add .

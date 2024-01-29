@@ -1,5 +1,5 @@
 [workspace]
 members = [
-	"apps/beapp",
-	"packages/ci"
+  "apps/beapp",
+  "packages/ci",
 ]
