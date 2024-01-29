@@ -1,0 +1,13 @@
+[package]
+name = "ci"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.41"
+dotenv = "0.15.0"
+qiniu-sdk = { version = "0.2.4", features = ["apis", "upload", "objects", "async", "isahc", "trust_dns"] }
+tokio = { version = "1", features = ["full"] }
+walkdir = "2.4.0"

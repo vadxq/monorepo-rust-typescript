@@ -1,4 +1,9 @@
 {
   "endOfLine": "lf",
-  "singleQuote": true
+  "singleQuote": true,
+  "semi": true,
+  "bracketSpacing": true,
+  "useTabs": false,
+  "htmlWhitespaceSensitivity": "strict",
+  "trailingComma": "none"
 }
