@@ -1,5 +1,23 @@
 # update
 
+## 2024-04-23
+
+- utils
+- update package version
+
+```bash
+- @commitlint/cli 18.6.1
++ @commitlint/cli 19.3.0
+- @commitlint/config-conventional 18.6.2
++ @commitlint/config-conventional 19.2.2
+- @types/node 20.11.19
++ @types/node 20.12.7
+- turbo 1.12.4
++ turbo 1.13.2
+- typescript 5.3.3
++ typescript 5.4.5
+```
+
 ## 2024-02-18
 
 - packageManager to 8.15.3
