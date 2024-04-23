@@ -6,3 +6,22 @@
   display: -webkit-box;
   -webkit-box-orient: vertical;
 }
+
+.one-line {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE和Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.grayscale {
+  filter: grayscale(100%);
+}

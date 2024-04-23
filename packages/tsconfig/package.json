@@ -5,6 +5,8 @@
   "files": [
     "base.json",
     "solid-start.json",
-    "solid-library.json"
+    "solid-library.json",
+    "vue-project.json",
+    "vue-library.json"
   ]
 }
