@@ -3,21 +3,21 @@
   "display": "solid-start",
   "extends": "./base.json",
   "compilerOptions": {
-    "target": "esnext",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
-    "incremental": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "module": "esnext",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
+    "jsx": "preserve",
     "jsxImportSource": "solid-js",
-    "jsx": "preserve"
+    "allowJs": true,
+    "noEmit": true,
+    "strict": true,
+    "types": ["vinxi/types/client"],
+    "isolatedModules": true,
+    "paths": {
+      "~/*": ["./src/*"]
+    }
   },
-  "include": ["src", "vite-env.d.ts"],
   "exclude": ["node_modules"]
 }

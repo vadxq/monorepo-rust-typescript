@@ -1,12 +1,18 @@
 {
   "extends": "tsconfig/solid-start.json",
-  "include": ["**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules"],
+  "include": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
   "compilerOptions": {
-    "types": ["vite/client"],
     "baseUrl": ".",
     "paths": {
-      "~/*": ["src/*"]
+      "~/*": [
+        "./src/*"
+      ]
     }
   }
 }

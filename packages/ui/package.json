@@ -11,7 +11,7 @@
     "eslint": "^8.56.0",
     "eslint-config-custom": "workspace:*",
     "tsconfig": "workspace:*",
-    "typescript": "^5.3.3"
+    "typescript": "^5.4.5"
   },
   "dependencies": {
     "solid-js": "^1.8.7"

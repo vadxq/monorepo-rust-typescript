@@ -13,12 +13,12 @@
     "@commitlint/cli": "^19.3.0",
     "@commitlint/config-conventional": "^19.2.2",
     "@types/node": "^20.12.7",
-    "dprint": "^0.44.0",
+    "dprint": "^0.46.3",
     "eslint": "^8.56.0",
     "eslint-config-custom": "workspace:*",
-    "husky": "^8.0.3",
+    "husky": "^9.0.11",
     "prettier": "^3.2.5",
-    "turbo": "^1.13.2",
+    "turbo": "^2.0.4",
     "typescript": "^5.4.5"
   },
   "scripts": {
@@ -55,5 +55,5 @@
   "engines": {
     "node": ">=20.0.0"
   },
-  "packageManager": "pnpm@8.15.3"
+  "packageManager": "pnpm@9.1.3"
 }

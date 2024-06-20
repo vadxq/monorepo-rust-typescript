@@ -1,33 +1,70 @@
 {
   "name": "feapp",
-  "scripts": {
-    "dev": "solid-start dev",
-    "build": "solid-start build",
-    "start": "solid-start start",
-    "lint": "eslint \"**/*.{js,jsx,ts,tsx}\""
-  },
+  "version": "0.1.0",
   "type": "module",
-  "main": "./dist/index.js",
-  "devDependencies": {
-    "@types/babel__core": "^7.20.5",
-    "@types/debug": "^4.1.12",
-    "@types/node": "^20.10.5",
-    "esbuild": "^0.19.10",
-    "eslint": "^8.56.0",
-    "eslint-config-custom": "workspace:*",
-    "solid-start-node": "^0.3.10",
-    "tsconfig": "workspace:*",
-    "typescript": "^5.3.3",
-    "vite": "^4.4.6"
+  "author": "vadxq",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vinxi dev --host",
+    "build": "vinxi build",
+    "start": "vinxi start",
+    "start:vercel": "node ./.output/server/index.mjs",
+    "lint": "eslint --fix \"**/*.{ts,tsx,js,jsx}\""
   },
   "dependencies": {
-    "@solidjs/meta": "^0.29.3",
-    "@solidjs/router": "^0.8.2",
-    "solid-js": "^1.8.7",
-    "solid-start": "^0.3.10",
-    "undici": "^6.0.1"
+    "@kobalte/core": "^0.13.3",
+    "@kobalte/tailwindcss": "^0.9.0",
+    "@solidjs/meta": "^0.29.4",
+    "@solidjs/router": "^0.13.6",
+    "@solidjs/start": "^1.0.2",
+    "solid-js": "^1.8.17",
+    "tailwindcss": "^3.4.4",
+    "tailwindcss-animate": "^1.0.7",
+    "vinxi": "^0.3.12"
   },
+  "devDependencies": {
+    "@dotenvx/dotenvx": "^0.37.1",
+    "@egoist/tailwindcss-icons": "^1.8.0",
+    "eslint-config-solid": "workspace:*",
+    "tsconfig": "workspace:*",
+    "utils": "workspace:*",
+    "@iconify-icon/solid": "^2.1.1",
+    "@iconify-json/line-md": "^1.1.37",
+    "@iconify/tailwind": "^1.1.1",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "@tailwindcss/typography": "^0.5.13",
+    "cssnano": "^7.0.1",
+    "eslint": "^8.56.0",
+    "eslint-plugin-tailwindcss": "^3.15.1",
+    "postcss": "^8.4.38",
+    "postcss-import": "^15.1.0",
+    "postcss-preset-env": "^9.3.0",
+    "stylelint": "^16.5.0",
+    "stylelint-config-html": "^1.1.0",
+    "stylelint-config-recommended": "^14.0.0",
+    "stylelint-config-standard": "^36.0.0",
+    "stylelint-order": "^6.0.4",
+    "tailwind-variants": "^0.2.1",
+    "vconsole": "^3.15.1",
+    "vite-plugin-vconsole": "^2.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vadxq/monorepo-rust-typescript.git"
+  },
+  "keywords": [
+    "monorepo",
+    "rust",
+    "typescript",
+    "solid"
+  ],
+  "bugs": {
+    "url": "https://github.com/vadxq/monorepo-rust-typescript/issues"
+  },
+  "homepage": "https://github.com/vadxq/monorepo-rust-typescript#readme",
   "engines": {
-    "node": ">=16"
+    "node": ">=18"
   }
 }

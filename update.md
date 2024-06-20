@@ -1,5 +1,25 @@
 # update
 
+## 2024-06-20
+
+- change packages/eslint-config-custom
+- add packages/eslint-config-solid
+- add solid-start v1 release demo
+- remove rust channel config
+- update pnpm manage version to 9.1.3
+- update typescript to 5.4.5
+- update turbo to v2
+- update package version
+
+```bash
+- dprint 0.44.0
++ dprint 0.46.3
+- husky 8.0.3
++ husky 9.0.11
+- turbo 1.13.4
++ turbo 2.0.4
+```
+
 ## 2024-04-23
 
 - utils
