@@ -10,7 +10,7 @@ export default function AnalyticsScript({ gaId, clarityId }: any) {
     ;(window as any).dataLayer = (window as any).dataLayer || []
     // eslint-disable-next-line no-unused-vars
     function gtag(_p0?: string, _p1?: any) {
-      (window as any).dataLayer.push(arguments)
+      ;(window as any).dataLayer.push(arguments)
     }
     gtag('js', new Date())
     gtag('config', gaId)
