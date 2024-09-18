@@ -1,72 +1,33 @@
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-hr,
-p,
-blockquote,
-dl,
-dt,
-dd,
-ul,
-ol,
-li,
-pre,
-form,
-fieldset,
-legend,
-button,
-input,
-textarea,
-th,
-td {
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
   margin: 0;
   padding: 0;
 }
 
-body,
-input,
-textarea,
-select,
-button,
-table {
+body, input, textarea, select, button, table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-html,
-body {
+html, body {
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: none;
   width: 100%;
   height: 100%;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-size: 100%;
 }
 
-img,
-fieldset {
+img, fieldset {
   border: 0 none;
 }
 
-ul,
-ol,
-li {
+ul, ol, li {
   list-style: none;
 }
 
-em,
-address {
+em, address {
   font-style: normal;
 }
 
@@ -74,13 +35,11 @@ table {
   border-collapse: collapse;
 }
 
-em,
-i {
+em, i {
   font-style: normal;
 }
 
-strong,
-b {
+strong, b {
   font-weight: normal;
 }
 
@@ -88,8 +47,7 @@ img {
   border: none;
 }
 
-input,
-img {
+input, img {
   vertical-align: middle;
 }
 
@@ -114,7 +72,7 @@ a {
   clear: both;
   visibility: hidden;
   height: 0;
-  content: ' ';
+  content: " ";
   font-size: 0;
 }
 

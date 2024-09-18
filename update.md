@@ -1,5 +1,33 @@
 # update
 
+## 2024-09-18
+
+- update dprint config and version
+- update pnpm manage version to 9.10.0
+- update typescript to 5.6.2
+- update package version
+
+```bash
+- @changesets/cli 2.27.5
++ @changesets/cli 2.27.8
+- @commitlint/cli 19.3.0
++ @commitlint/cli 19.5.0
+- @commitlint/config-conventional 19.2.2
++ @commitlint/config-conventional 19.5.0
+- @types/node 20.14.6
++ @types/node 20.16.5
+- eslint 8.57.0
++ eslint 8.57.1
+- husky 9.0.11
++ husky 9.1.6
+- prettier 3.3.2
++ prettier 3.3.3
+- turbo 2.0.4
++ turbo 2.1.2
+- typescript 5.4.5
++ typescript 5.6.2
+```
+
 ## 2024-06-20
 
 - change packages/eslint-config-custom

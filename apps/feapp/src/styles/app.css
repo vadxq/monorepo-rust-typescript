@@ -1,4 +1,4 @@
-@import url('./tailwind.css');
+@import url("./tailwind.css");
 
 @layer base {
   :root {
@@ -104,9 +104,7 @@
   }
   body {
     @apply bg-background text-foreground;
-    font-feature-settings:
-      "rlig" 1
-      "calt" 1;
+    font-feature-settings: "rlig" 1 "calt" 1;
   }
 }
 
@@ -116,7 +114,8 @@
   }
 
   .step:before {
-    @apply absolute w-9 h-9 bg-muted rounded-full font-mono font-medium text-center text-base inline-flex items-center justify-center -indent-px border-4 border-background;
+    @apply absolute w-9 h-9 bg-muted rounded-full font-mono font-medium text-center text-base inline-flex items-center justify-center -indent-px border-4
+    border-background;
     @apply ml-[-50px] mt-[-4px];
     content: counter(step);
   }

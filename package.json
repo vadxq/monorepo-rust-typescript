@@ -9,17 +9,17 @@
     "packages/*"
   ],
   "devDependencies": {
-    "@changesets/cli": "^2.27.1",
-    "@commitlint/cli": "^19.3.0",
-    "@commitlint/config-conventional": "^19.2.2",
-    "@types/node": "^20.12.7",
-    "dprint": "^0.46.3",
-    "eslint": "^8.56.0",
+    "@changesets/cli": "^2.27.8",
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
+    "@types/node": "^20.16.5",
+    "dprint": "^0.47.2",
+    "eslint": "^8.57.1",
     "eslint-config-custom": "workspace:*",
-    "husky": "^9.0.11",
-    "prettier": "^3.2.5",
-    "turbo": "^2.0.4",
-    "typescript": "^5.4.5"
+    "husky": "^9.1.6",
+    "prettier": "^3.3.3",
+    "turbo": "^2.1.2",
+    "typescript": "^5.6.2"
   },
   "scripts": {
     "feapp": "pnpm --filter=./apps/feapp",
@@ -55,5 +55,5 @@
   "engines": {
     "node": ">=20.0.0"
   },
-  "packageManager": "pnpm@9.1.3"
+  "packageManager": "pnpm@9.10.0"
 }
