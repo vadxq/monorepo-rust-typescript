@@ -1,5 +1,10 @@
 # update
 
+## 2024-09-26
+
+- update pnpm manage version to 9.11.0
+- update package version
+
 ## 2024-09-18
 
 - update dprint config and version
